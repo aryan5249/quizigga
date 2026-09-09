@@ -12,13 +12,22 @@ body {
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
+img{
+    width: 500px;
+    height: 150px;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}
+
+
 
 .quiz-box {
   width: 500px;
   background-color: #f3f02e;
   border: 3px solid #000000;
   padding: 20px;
-  
+
 }
 
 .counter {
@@ -60,6 +69,18 @@ body {
   cursor: pointer;
   padding: 0;
   overflow: hidden;
+}
+
+
+.correct {
+  background-color: #4CAF50; 
+  color: white;
+  border-color: #4CAF50; 
+}
+.wrong {
+    background-color: #f44336; 
+    color: white;
+    border-color: #f44336;
 }
 
 .option-label {
